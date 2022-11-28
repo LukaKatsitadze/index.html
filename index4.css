@@ -9,19 +9,18 @@ h1 {
 }
 h2 {
     color: orange;
-    background-color: yellow;
 }
 li {
     color: #0005ff;
 }
-input [type=checkbox] :focus {
-    border: 3px red;
+input {
+    border: red 3px;
 }
 .hello {
     background-color: white;
 }
 #special {
-    border: 2px solid rgba(47, 47, 168, 0.7)
+    border: 2px solid rgb(13, 13, 233)
 }
 div p {
     font-size: 25px;
@@ -29,10 +28,16 @@ div p {
 input [type=text] {
     background-color: grey;
 }
-div:nth-child(2) {
-    border: 5px white;
+div:nth-of-type(3) p:first-of-type { 
+    background-color: pink;
 }
-div em {
+div:nth-of-type(3) p:nth-of-type(2) {
+    background-color: pink;
+}
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: white 5px;
+}
+div:nth-of-type(3) em {
     color: white;
     font-size: 20px;
 }
