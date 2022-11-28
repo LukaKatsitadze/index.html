@@ -11,11 +11,9 @@
     color: grey;
     font-size: 30px;
     width: 100px;
+    display: none;
 }
 
 .layoutExamplesWrapper > a {
     display: block;
-}
-.gone {
-    display: none;
 }
