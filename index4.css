@@ -1,0 +1,41 @@
+h2 {
+    color: purple;
+}
+body {
+    background: #bdc3c7;
+}
+h1 {
+    color: #9b59b6;
+}
+h2 {
+    color: orange;
+    background-color: yellow;
+}
+li {
+    color: #0005ff;
+}
+input [type=checkbox] :focus {
+    border: 3px red;
+}
+.hello {
+    background-color: white;
+}
+#special {
+    border: 2px solid rgba(47, 47, 168, 0.7)
+}
+div p {
+    font-size: 25px;
+}
+input [type=text] {
+    background-color: grey;
+}
+div:nth-child(2) {
+    border: 5px white;
+}
+div em {
+    color: white;
+    font-size: 20px;
+}
+p {
+    background-color: yellow;
+}
